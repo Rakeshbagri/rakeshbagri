@@ -1,0 +1,15 @@
+ how to autoplay vimeo video use javascript
+
+use player.js and small script code 
+
+<script src="https://player.vimeo.com/api/player.js"></script> 
+<script>
+ $(document).ready(function(){
+	var iframe = document.querySelector('iframe');
+    var player = new Vimeo.Player(iframe);
+    player.play();
+    player.on('play', function() {
+    alert('played the video!');
+    });
+ });
+</script>
