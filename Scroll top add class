@@ -1,0 +1,19 @@
+<script>
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 100) {
+        $(".site-header").addClass("darkHeader");
+    } else {
+        $(".site-header").removeClass("darkHeader");
+    }
+});
+   </script>
+<style>
+
+.fixed .site-header {
+    transform: translateY(-28px);
+}
+
+.site-header {    transition: transform 0.5s ease 0s; position:fixed; top:0px; z-index:99; width:100%; }
+</style>
