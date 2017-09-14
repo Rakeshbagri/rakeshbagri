@@ -24,3 +24,19 @@ use 3 type video mp4, ogg
   <source src="assets/781711928.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video> 
+
+after on click mute off
+
+ <button class="playing center-btn" onclick="enableMute()" type="button"> <i class="ion-ios-volume-high"></i> </button> 
+ 
+ use this js
+ 
+ 
+<script> 
+var vid = document.getElementById("myVideo"); 
+function enableMute() { 
+    vid.muted = false;
+	vid.play();
+}
+
+</script>
