@@ -1,0 +1,39 @@
+use this js  #https://globalpayroll.myshopify.com/blogs/resources
+
+add class  custom-sidebar1
+
+<script>
+
+window.onscroll = function (e) {  
+ var h1 = $(window).scrollTop() + $(window).height() +300 ;
+  var h2 = $(document).height();
+//   console.log(h1);
+//   console.log(h2);
+  
+  if(h1 >= h2) {
+//       $(".custom-sidebar").addClass("sticky-fix-bottom");
+  }else{
+//     $(".custom-sidebar").removeClass("sticky-fix-bottom");
+  }
+  
+// called when the window is scrolled.  
+  var scroll = $(window).scrollTop();
+  if(scroll >= 300){
+   $(".custom-sidebar1").addClass("sticky-fix");     
+  }else{
+    $(".custom-sidebar1").removeClass("sticky-fix"); 
+  }
+  
+  if(h1 >= h2) {
+//       $(".custom-sidebar").addClass("sticky-fix-bottom");
+  }else{
+    $(".custom-sidebar1").css("top", scroll+"px");
+//     $(".custom-sidebar").removeClass("sticky-fix-bottom");
+  }
+//   $(".custom-sidebar").css("top", scroll+"px");
+  
+ 
+} 
+ 
+
+   </script>
