@@ -1,0 +1,10 @@
+#how to toggle class in jquery
+#how to toggle add remove class in jquery
+
+<script> 
+ $(document).ready(function(e) {
+    $(".mnav").click(function(){
+	 $(".nar").toggleClass("rakesh");	
+	});
+});
+</script> 
