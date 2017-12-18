@@ -1,0 +1,30 @@
+# https://virtualfitnesstrainers.myshopify.com/pages/membership
+
+
+2 block ki height get karke 1 block par top se margin lgani hai jisse 2 block hamesa bottom me hi rhega 
+
+.content par top se height lagegi jisse hamesa bottom me hi rahega 
+
+<script>
+ 
+$(document).ready(function(){
+  $('#renu-1.html-item').each(function() {
+         var height = $('#renu-1 .col-sm-7 img').height() - $('#renu-1 .col-sm-6.content').height();
+         $('#renu-1 .col-sm-6.content').css('margin-top', height);
+  });
+    $('#renu-2.html-item').each(function() {
+        var height = $('#renu-2 .col-sm-7 img').height() - $('#renu-2 .col-sm-6.content').height();
+        $('#renu-2 .col-sm-6.content').css('margin-top', height);
+  });
+    $('#renu-3.html-item').each(function() {
+        var height = $('#renu-3 .col-sm-7 img').height() - $('#renu-3 .col-sm-6.content').height();
+        $('#renu-3 .col-sm-6.content').css('margin-top', height);
+  });
+    $('#renu-4.html-item').each(function() {
+        var height = $('#renu-4 .col-sm-7 img').height() - $('#renu-4 .col-sm-6.content').height();
+        $('#renu-4 .col-sm-6.content').css('margin-top', height);
+  });
+  //$('#content').height(height);
+});
+
+</script>
