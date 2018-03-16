@@ -6,3 +6,16 @@ window.onload = function(){
 jQuery('#loader').hide(); 
 } 
 </script>
+
+
+
+#loader {
+    background: #f9f9f9 url("https://cdn.shopify.com/s/files/1/2651/4248/files/logo_x64_5a7e9117-1337-4203-9ee5-b52636ad7f27.png?4388862812336193375") no-repeat scroll 50% 50%;
+    height: 100%;
+    left: 0;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
