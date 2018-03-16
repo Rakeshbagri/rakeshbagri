@@ -1,0 +1,8 @@
+
+<div id="loader"> </div>
+
+<script>
+window.onload = function(){
+jQuery('#loader').hide(); 
+} 
+</script>
