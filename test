@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<style>
+
+.blog-list .text { float:left; width:50%; }
+.blog-list .image { float:left; width:50%; background:red; } 
+.blog-list .article-loop{ float:left; width:50%; } 
+
+.blog-list .article-loop:nth-child(4n+4) .text,
+.blog-list .article-loop:nth-child(4n+3) .text { float:right; }
+
+</style>
+
+<body>
+
+<div class="blog-list">
+<div class="article-loop">
+<div class="text"> text  </div>
+<div class="image"> img </div>
+</div>
+ 
+
+<div class="article-loop">
+<div class="text"> text  </div>
+<div class="image"> img </div>
+</div>
+ 
+
+<div class="article-loop">
+<div class="text"> text  </div>
+<div class="image"> img </div>
+</div>
+ 
+
+<div class="article-loop">
+<div class="text"> text  </div>
+<div class="image"> img </div>
+</div>
+ 
+
+<div class="article-loop">
+<div class="text"> text  </div>
+<div class="image"> img </div>
+</div>
+ 
+
+<div class="article-loop">
+<div class="text"> text  </div>
+<div class="image"> img </div>
+</div>
+
+<div class="article-loop">
+<div class="text"> text  </div>
+<div class="image"> img </div>
+</div>
+ 
+
+<div class="article-loop">
+<div class="text"> text  </div>
+<div class="image"> img </div>
+</div>
+</div>
+
+
+</body>
+</html>
