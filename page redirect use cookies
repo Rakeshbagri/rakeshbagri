@@ -1,0 +1,28 @@
+#on click go any page after auto redirect on same page
+#on click ragister after redirect same page 
+
+
+<script> 
+ $(document).ready(function(e) {
+      $(".option_price").click(function(){
+ 	  $(".section-585").addClass("build-pop");
+      $customer = '1';  
+      $.cookie("redirectToBuy",$customer,{path: '/account'});
+	});
+ });     
+</script> 
+
+
+jis page (ragister hone par jata hai ) use this page after auto redirect same page https://herbalplan.co.uk/apps/productbuilder/buy-a-plan
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script>
+  	 $(document).ready(function(e) {
+    	$redirectToBuy = $.cookie("redirectToBuy");
+  		$.removeCookie('redirectToBuy',{path: '/account'});
+        if($redirectToBuy == 1){
+          $redirectPage = 'https://herbalplan.co.uk/apps/productbuilder/buy-a-plan';
+          window.location.href= $redirectPage;
+        }
+     });
+</script>
