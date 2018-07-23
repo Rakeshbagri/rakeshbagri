@@ -1,0 +1,13 @@
+<script>
+ jQuery(document).ready(function(){      
+      var ww = jQuery(window).width();
+      var ew = ww - 1200;
+	  var bw = ew / 2; 
+      var bw2 = bw + 600;
+     
+      jQuery(".image-content").css( 'margin-right','-'+bw+'px' );
+      
+      jQuery(".image-content").css( 'width',bw2+'px' );
+      
+     }); 
+</script>
