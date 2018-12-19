@@ -1,0 +1,15 @@
+#for mobile data show 
+# better speed data load time 
+
+<div class="mobilellllll"> </div>
+
+
+<script>
+
+var newWindowWidth = $(window).width();
+    if (newWindowWidth < 767 ) {
+    	$('.mobilellllll').remove();
+        console.log('satya');          
+  }
+  
+  </script>
