@@ -1,0 +1,27 @@
+| split:'?' | first
+
+#add fixed positions left menu
+#use js for 1 part fixed and 1 part scroll after bottom scroll 2 part
+ 
+
+<script type="text/javascript">
+			 
+	 $(window).scroll(function(e){
+                 
+					var scrollTop = $(window).scrollTop() ,  h = $('#product-contain').height() , oh = $('#outer-contain').height();
+					var top = $('#product-contain').position().top ,  offset = oh - h;
+					console.log("top="+top+";offset=");
+					
+					if(scrollTop >= 200){
+						$('#product-contain').css({'position':'fixed','top':'0px','z-index':4});
+						if(scrollTop - 200 >= offset){
+							$('#product-contain').css({'position':'relative','top':(offset)+'px'});
+						}
+					}else{
+						$('#product-contain').css({'position':'static'});
+					}
+			        
+				});
+		 
+			
+			</script>
