@@ -1,0 +1,39 @@
+// add remove class
+// active class
+// remove body click
+<div class="caloy-list">
+                       <h6>recipecollection</h6>
+                       <ul class="fil-list">
+ <li> safsafsafa </li>      
+ </ul>
+                    </div>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+   $(document).on('click','.caloy-list h6',function(){
+    
+     //   $(".caloy-list h6").click(function(){
+            if($(this).parent().find(".fil-list").hasClass("show")){
+            $(this).parent().find(".fil-list").removeClass("show")
+            $(".caloy-list").removeClass("active");
+        }else{
+          $(".fil-list").removeClass("show");
+          $(".caloy-list").removeClass("active");
+          $(this).parent().find(".fil-list").addClass("show");
+          $(this).parent().addClass("active")
+
+        }
+          
+        });
+    });
+    $(document).on("click", function(event){
+        var $trigger = $(".caloy-list");
+        if($trigger !== event.target && !$trigger.has(event.target).length){
+         
+            $(".fil-list").removeClass("show");
+          $(".caloy-list").removeClass("active");
+        }            
+    });
+
+</script>
