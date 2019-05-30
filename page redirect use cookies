@@ -26,3 +26,12 @@ jis page (ragister hone par jata hai ) use this page after auto redirect same pa
         }
      });
 </script>
+
+
+# simple redirect page use this code
+
+<script>
+setTimeout(function() {
+  window.location.href = "https://www.example.com";
+}, 3000);
+</script>
