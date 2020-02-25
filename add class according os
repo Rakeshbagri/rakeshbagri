@@ -10,3 +10,11 @@
 })(jQuery);
   
   </script>
+
+
+and this is working fine in safari and chorme mac
+
+if(navigator.userAgent.indexOf('Mac') > 0)
+$('body').addClass('mac-os');if(navigator.userAgent.indexOf('Safari') > 0)
+$('body').addClass('safari');if(navigator.userAgent.indexOf('Chrome') > 0)
+$('body').addClass('chrome');
