@@ -222,26 +222,7 @@ font-size: 1.6rem;
 if (Shopify.designMode) {
 document.documentElement.classList.add('shopify-design-mode');
 }
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10798594371"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-10798594371');
 </script>
-
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FEGGW7KPH4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-FEGGW7KPH4');
-</script>
-  
 </head>
 
 <body class="gradient locatio---{{ localization.country.iso_code }}">
@@ -327,18 +308,6 @@ $(this).toggleClass('active');
 {%- if settings.predictive_search_enabled -%}
 <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
-
-  {% if first_time_accessed %}
-<!-- Event snippet for Purchase conversion page -->
-<script>
-  gtag('event', 'conversion', {
-    'send_to': 'AW-10798594371/aBCeCNnEq4EYEMPylZ0o',
-    'value': {{ checkout.total_price | divided_by: 100.0 }},
-    'currency': '{{ currency }}',
-    'transaction_id': '{{ order_number }}'
-  });
-</script>
-{% endif %}
 
 </body>
 </html>
