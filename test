@@ -85,27 +85,7 @@
           <div class="image-with-text__image-wrapper">
             {%- for block in section.blocks -%}
               {%- if block.settings.image != blank -%}
-                {%- capture id_attribute -%}block-{{ block.id }}-{{ block.settings.image.id }}{%- endcapture -%}
-                {%- assign is_hidden = true -%}
-
-                {%- if image_count == 0 -%}
-                  {%- assign is_hidden = false -%}
-                {%- endif -%}
-
-                {%- if section.settings.reveal_on_scroll -%}
-                  {%- if is_hidden -%}
-                    {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: id: id_attribute, loading: 'lazy', sizes: '(max-width: 740px) calc(100vw - 96px), (max-width: 999px) calc(100vw - 160px), 600px', widths: '600,700,800,1000,1200,1400', reveal-visibility: true, hidden: true, class: 'image-with-text__image' -}}
-                  {%- else -%}
-                    {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: id: id_attribute, loading: 'lazy', sizes: '(max-width: 740px) calc(100vw - 96px), (max-width: 999px) calc(100vw - 160px), 600px', widths: '600,700,800,1000,1200,1400', reveal-visibility: true, class: 'image-with-text__image' -}}
-                  {%- endif -%}
-                {%- else -%}
-                  {%- if is_hidden -%}
-                    {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: id: id_attribute, loading: 'lazy', sizes: '(max-width: 740px) calc(100vw - 96px), (max-width: 999px) calc(100vw - 160px), 600px', widths: '600,700,800,1000,1200,1400', hidden: true, class: 'image-with-text__image' -}}
-                  {%- else -%}
-                    {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: id: id_attribute, loading: 'lazy', sizes: '(max-width: 740px) calc(100vw - 96px), (max-width: 999px) calc(100vw - 160px), 600px', widths: '600,700,800,1000,1200,1400', class: 'image-with-text__image' -}}
-                  {%- endif -%}
-                {%- endif -%}
-
+                <img id="block-{{ block.id }}-{{ block.settings.image.id }}" class="image-with-text__image" {% if section.settings.reveal_on_scroll %}reveal-visibility{% endif %} {% unless image_count == 0 %}hidden{% endunless %} sizes="(max-width: 740px) calc(100vw - 96px), (max-width: 999px) calc(100vw - 160px), 600px" loading="lazy" {% render 'image-attributes', image: block.settings.image, sizes: '600,700,800,1000,1200,1400' %}>
                 {%- assign image_count = image_count | plus: 1 -%}
               {%- endif -%}
             {%- endfor -%}
@@ -124,13 +104,13 @@
               {%- for block in section.blocks -%}
                 <image-with-text-item {% if block.settings.image != blank and image_count > 1 %}attached-image="block-{{ block.id }}-{{ block.settings.image.id }}"{% endif %} {% unless forloop.first %}hidden{% endunless %} class="image-with-text__content text-container text--{{ section.settings.text_alignment }}" {{ block.shopify_attributes }}>
                   {%- if block.settings.subheading != blank -%}
-                    <h2 class="heading heading--small">
+                    <h2 class="heading h1">
                       <split-lines {% if section.settings.reveal_on_scroll or forloop.first != true %}reveal{% endif %}>{{ block.settings.subheading | escape }}</split-lines>
                     </h2>
                   {%- endif -%}
 
                   {%- if block.settings.title != blank -%}
-                    <h3 class="heading h2">
+                    <h3 class="heading h3">
                       <split-lines {% if section.settings.reveal_on_scroll or forloop.first != true %}reveal{% endif %}>{{ block.settings.title | escape }}</split-lines>
                     </h3>
                   {%- endif -%}
@@ -169,12 +149,9 @@
 
 {% schema %}
 {
-  "name": "Image with text",
-  "class": "shopify-section--image-with-text",
+  "name": "Image with text New",
+  "class": "shopify-section--image-with-text img-text__new",
   "max_blocks": 2,
-  "disabled_on": {
-    "groups": ["header", "custom.overlay"]
-  },
   "settings": [
     {
       "type": "checkbox",
@@ -342,7 +319,7 @@
   ],
   "presets": [
     {
-      "name": "Image with text",
+      "name": "Image with text New",
       "settings": {},
       "blocks": [
         {
