@@ -1,6 +1,8 @@
-site 
+clickup 
+
 
 Acura
+
 ILX 2016-2023
 
 MDX 2016-2023
@@ -14,14 +16,17 @@ RLX 2016-2023
 TLX 2016-2023
 
 Alfa Romeo
+
 Giulia 2016-2023
 
 Stelvio 2018-2023
 
 Alpine
+
 Headunits equipped with wired CarPlay
 
 Aston Martin
+
 DB11 2016-2023
 
 DBS Superleggera 2018-2023
@@ -33,6 +38,7 @@ Vantage 2016-2023
 DBX 2020-2023
 
 Audi
+
 A3 2016-2023
 
 A4 2016-2023
@@ -60,6 +66,7 @@ R8 2016-2023
 TT 2016-2023
 
 Bentley
+
 Bentayga 2016-2023
 
 Continental GT 2016-2023
@@ -69,11 +76,13 @@ Flying Spur 2016-2023
 Mulsanne 2016-2023
 
 Bugatti
+
 Chiron 2016-2023
 
 Divo 2019-2023
 
 Buick
+
 Cascada 2016-2019
 
 Enclave 2016-2023
@@ -89,6 +98,7 @@ LaCrosse 2016-2019
 Regal 2016-2020
 
 Cadillac
+
 ATS 2016-2019
 
 CT4 2020-2023
@@ -108,6 +118,7 @@ XT5 2016-2023
 XT6 2020-2023
 
 Chevrolet
+
 Blazer 2019-2023
 
 Bolt EV 2016-2023
@@ -141,6 +152,7 @@ Traverse 2016-2023
 Trax 2016-2023
 
 Chrysler
+
 300 2016-2023
 
 Pacifica 2017-2023
@@ -148,6 +160,7 @@ Pacifica 2017-2023
 Voyager 2020-2023
 
 Dodge
+
 Challenger 2016-2023
 
 Charger 2016-2023
@@ -159,6 +172,7 @@ Grand Caravan 2016-2020
 Journey 2016-2020
 
 Ferrari
+
 488 GTB/Spider 2016-2020
 
 812 Superfast/812 GTS 2017-2023
@@ -172,6 +186,7 @@ Roma 2020-2023
 SF90 Stradale 2020-2023
 
 Ford
+
 Bronco 2021-2023
 
 EcoSport 2018-2023
@@ -197,6 +212,7 @@ Transit 2016-2023
 Transit Connect 2016-2023
 
 Genesis
+
 G70 2018-2023
 
 G80 2016-2023
@@ -208,6 +224,7 @@ GV70 2021-2023
 GV80 2020-2023
 
 GMC
+
 Acadia 2016-2023
 
 Canyon 2016-2023
@@ -219,6 +236,7 @@ Terrain 2016-2023
 Yukon 2016-2023
 
 Honda
+
 Accord 2016-2023
 
 Civic 2016-2023
@@ -236,6 +254,7 @@ Passport 2019-2023
 Ridgeline 2016-2023
 
 Hyundai
+
 Accent 2016-2023
 
 Elantra 2016-2023
@@ -259,6 +278,7 @@ Venue 2020-2023
 Veloster 2016-2023
 
 Infiniti
+
 Q50 2016-2023
 
 Q60 2017-2023
@@ -274,6 +294,7 @@ QX60 2016-2023
 QX80 2016-2023
 
 Jaguar
+
 E-PACE 2018-2023
 
 F-PACE 2016-2023
@@ -289,6 +310,7 @@ XF 2016-2023
 XJ 2016-2020
 
 Jeep
+
 Cherokee 2016-2023
 
 Compass 2016-2023
@@ -302,9 +324,11 @@ Renegade 2016-2023
 Wrangler 2016-2023
 
 Kenwood
+
 Headunits equipped with wired CarPlay
 
 Kia
+
 Cadenza 2016-2021
 
 Forte 2016-2023
@@ -332,11 +356,13 @@ Stinger 2018-2023
 Telluride 2020-2023
 
 Koenigsegg
+
 Jesko 2019-2023
 
 Regera 2016-2021
 
 Lamborghini
+
 Aventador 2016-2023
 
 Huracán 2016-2023
@@ -344,6 +370,7 @@ Huracán 2016-2023
 Urus 2018-2023
 
 Land Rover
+
 Discovery 2016-2023
 
 Discovery Sport 2016-2023
@@ -357,6 +384,7 @@ Range Rover Sport 2016-2023
 Range Rover Velar 2018-2023
 
 Lexus
+
 ES 2016-2023
 
 GS 2016-2020
@@ -380,6 +408,7 @@ RX 2016-2023
 UX 2019-2023
 
 Lincoln
+
 Aviator 2020-2023
 
 Continental 2016-2020
@@ -395,11 +424,13 @@ Nautilus 2019-2023
 Navigator 2016-2023
 
 Lotus
+
 Evora 2016-2022
 
 Emira 2022-2023
 
 Maserati
+
 Ghibli 2016-2023
 
 GranTurismo 2016-2020
@@ -409,6 +440,7 @@ Levante 2016-2023
 Quattroporte 2016-2023
 
 Mazda
+
 CX-3 2016-2022
 
 CX-30 2020-2023
@@ -424,6 +456,7 @@ Mazda6 2016-2023
 MX-5 Miata 2016-2023
 
 McLaren
+
 570S/570GT 2016-2020
 
 600LT 2018-2020
@@ -435,6 +468,7 @@ GT 2020-2023
 Artura 2021-2023
 
 Mercedes-Benz
+
 A-Class 2019-2023
 
 AMG GT 2016-2023
@@ -471,7 +505,34 @@ SLC 2016-2020
 
 Sprinter 2016-2023
 
+Mini
+
+Clubman 2016-2023
+
+Convertible 2016-2023
+
+Countryman 2016-2023
+
+Hardtop 2 Door 2016-2023
+
+Hardtop 4 Door 2016-2023
+
+Mitsubishi
+
+Eclipse Cross 2018-2023
+
+Mirage 2016-2023
+
+Mirage G4 2017-2023
+
+Outlander 2016-2023
+
+Outlander PHEV 2018-2023
+
+Outlander Sport 2016-2023
+
 Nissan
+
 370Z 2016-2023
 
 Altima 2016-2023
@@ -505,12 +566,15 @@ Titan 2016-2023
 Versa 2016-2023
 
 Pagani
+
 Huayra 2016-2023
 
 Pioneer
+
 Headunits equipped with wired CarPlay
 
 Porsche
+
 718 Boxster 2016-2023
 
 718 Cayman 2016-2023
@@ -526,6 +590,7 @@ Panamera 2016-2023
 Taycan 2020-2023
 
 Rolls-Royce
+
 Cullinan 2018-2023
 
 Dawn 2016-2023
@@ -537,6 +602,7 @@ Phantom 2016-2023
 Wraith 2016-2023
 
 Toyota
+
 4Runner 2016-2023
 
 86 2016-2020
@@ -572,6 +638,7 @@ Tundra 2016-2023
 Venza 2020-2023
 
 Volkswagen
+
 Arteon 2019-2023
 
 Atlas 2018-2023
@@ -589,6 +656,7 @@ Passat 2016-2023
 Tiguan 2016-2023
 
 Volvo
+
 S60 2016-2023
 
 S90 2016-2023
@@ -602,3 +670,4 @@ XC40 2018-2023
 XC60 2016-2023
 
 XC90 2016-2023
+
